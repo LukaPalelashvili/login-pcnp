@@ -88,8 +88,8 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "start": "node --max_old_space_size=2048 node_modules/.bin/react-scripts start",
-    "build": "node --max_old_space_size=2048 node_modules/.bin/react-scripts build",
+    "start": "node --max_old_space_size=2048 craco start",
+    "build": "node --max_old_space_size=2048 craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js src/**/*.jsx",
